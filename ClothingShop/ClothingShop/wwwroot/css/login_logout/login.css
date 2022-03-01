@@ -1,0 +1,115 @@
+﻿.login {
+    align-items: center;
+    background-image: url("https://demo.w3layouts.com/demos_new/template_demo/15-12-2017/shopping_signin_form-demo_Free/521159917/web/images/bg1.jpg");
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    width: 100%;
+}
+
+.loginTitle {
+    color: #000000;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 60px;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
+
+.loginForm {
+    background-color: rgba(44, 44, 44, 0.8);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px 40px 80px 40px;
+    width: 30%;
+}
+
+.loginForm > label { margin: 10px 0; }
+
+.loginInput {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.loginInput:focus { outline: none; }
+
+.loginButton {
+    background-color: #7fe516;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-left: 25%;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.loginButton:hover {
+    background-color: #8bf507;
+    font-weight: 700;
+}
+
+.loginRegisterButton {
+    background-color: teal;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-left: 25%;
+    min-width: 100px;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.loginRegisterButton:hover {
+    background-color: #0c50ed;
+    font-weight: 700;
+}
+
+.loginRegisterButton:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.loginOption {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginOption > a {
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.checkboxInput {
+    align-items: center;
+    display: flex;
+    margin-top: 16px;
+}
+
+.checkboxInput > input {
+    border-radius: 2px;
+    height: 20px;
+    margin-right: 8px;
+    width: 20px;
+}
+
+.checkboxInput > label { margin-bottom: 0; }
+
+.loginForm > p { margin-top: 16px; }
+
+.divide {
+    background-color: white;
+    height: 2px;
+    margin: 16px 0;
+    width: 100%;
+}

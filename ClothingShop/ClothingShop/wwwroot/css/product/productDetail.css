@@ -1,0 +1,118 @@
+﻿.product-detail {
+    margin-bottom: 32px;
+    margin-top: 60px;
+}
+
+.product-detail .details {
+    display: grid;
+    gap: 7rem;
+    grid-template-columns: 1fr 1.2fr;
+}
+
+.product-detail .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-detail .left .main {
+    background-color: #f6f2f1;
+    height: 45rem;
+    margin-bottom: 2rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+.product-detail .left .main img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-detail .thumbnails {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.product-detail .thumbnail {
+    background-color: #f6f2f1;
+    height: 10rem;
+    text-align: center;
+    width: 10rem;
+}
+
+.product-detail .thumbnail img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-detail .right h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.product-detail .right .price {
+    color: #ff7c9c;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.product-detail .right div {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.product-detail .right .form .inputInfo {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 8px;
+    outline: none;
+    padding: 0.8rem;
+    width: 20rem;
+}
+
+.product-detail .form { margin-bottom: 2rem; }
+
+.product-detail .form span {
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
+.product-detail .form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.product-detail .form .btn-action-detail {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    width: 50%;
+}
+
+.form .btn-action-detail .addCart {
+    background: #68c92c;
+    border-radius: 3rem;
+    color: #fff;
+    margin-bottom: 8px;
+    padding: 0.8rem 4rem;
+    text-decoration: none;
+    width: 100%;
+}
+
+.product-detail h3 {
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
